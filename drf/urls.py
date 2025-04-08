@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include('serialisation.urls')),
     path("de/", include('deserialisation.urls')),
+    path("crud/", include('CRUD.urls')),
 ]

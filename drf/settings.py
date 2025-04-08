@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "serialisation",
     "deserialisation",
     "rest_framework",
+    "CRUD",
 ]
 
 MIDDLEWARE = [
